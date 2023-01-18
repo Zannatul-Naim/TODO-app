@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.container {
+    height: 600px;
+    width: 300px;
+    border: 5px solid #9cdc10;
+    background: hsl(70, 14%, 92%);
+    border-radius: 7px;
+    padding: 7px;
+    overflow-y: scroll;
+}
+
+#newTask {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background: rgb(27, 153, 185);
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.fa-plus {
+    background-color: rgb(183, 225, 175);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#tasks {
+    display: grid;
+    gap: 12px;
+}
+
+#tasks div {
+    display: grid;
+    background-color: rgb(100, 179, 225);
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 3px;
+    gap: 4px;
+}
+
+.options {
+    justify-self: center;
+    display: flex;
+    gap: 25px;
+}
+
+i {
+    cursor: pointer;
+}
+
+#errorMsg {
+    color: red;
+}
